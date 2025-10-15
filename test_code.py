@@ -1,4 +1,4 @@
-from code_6 import *
+from assignment import *
 import random
 
 def test_describe_country():

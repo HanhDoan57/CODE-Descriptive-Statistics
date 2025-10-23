@@ -6,11 +6,11 @@ In this CODE assignment, you will begin your business analytics training. This C
 1. Python code implementation for producing descriptive statistics and annual reports of the big mac index.
   + Implement in the file **'assignment.py'** the code for the following functions
     + `get_describe_country`
-      * The function receives a country code and calculates descriptive statistics for the dollar_price of all the data from that country.
+      * The function receives a country code in lowercase letters as an argument and calculates descriptive statistics for the dollar_price of all the data from that country.
       * The function returns the descriptive statistics for the country.
       * HINT: Use the **describe()** function
     + `get_country_groupby_year`
-      * The function receives a country code and calculates a report on the dollar_price of big macs from that country. (e.g., descriptive statistics) The results should be aggregated by year
+      * The function receives a country code in lowercase letters as an argument and calculates a report on the dollar_price of big macs from that country. (e.g., descriptive statistics) The results should be aggregated by year
       * The function returns the report by year.
       * HINT: use the **describe()** function to calculate the descriptive statistics
     + This part of the assignment will have automated grading on GitHub Classrooms.
